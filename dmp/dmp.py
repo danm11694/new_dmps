@@ -315,7 +315,7 @@ class DMPs_cartesian(object):
         Run the DMP system for a single timestep.
           tau float: time rescaling constant
           error float: optional system feedback
-          external_force function: array with the same dimension as the number of DMPs.
+          external_force: array with the same dimension as the number of DMPs.
           adapt bool: says if using adaptive step
           tols float list: [rel_tol, abs_tol]
         '''
